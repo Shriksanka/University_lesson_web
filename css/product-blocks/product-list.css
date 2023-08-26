@@ -1,0 +1,28 @@
+.product-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-list__label{
+    font-family: 'Playfair Display', serif; 
+    font-size: 36px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.product-list__h-line{
+    width: 120px;
+    margin-bottom: 50px;
+}
+
+.product-list__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-list__items-padding_small > .product-item{
+    padding: 9px;
+}

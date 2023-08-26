@@ -1,0 +1,52 @@
+.shop{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop__mail-label, .shop__about-shop-label, .shop__categories-label{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+.shop__about-shop-description, .shop__mail-description{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+.shop__about-shop, .shop__categories, .shop__mail{
+    max-width: 350px;
+    padding-top: 10px;
+}
+
+.shop__mail-form{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop__mail-form-input{
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 0;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.shop__mail-form-input::placeholder{
+    color: #969696;
+}
+
+@media (max-width: 720px){
+    .shop__mail-label, .shop__about-shop-label, .shop__categories-label{
+        padding-bottom: 15px;
+    }
+
+}
+
+@media (max-width: 1024px){
+    .shop__about-shop, .shop__categories, .shop__mail{
+        padding-top: 35px;
+    }
+}
